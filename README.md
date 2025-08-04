@@ -1,6 +1,6 @@
 # England Euro 2024 – Attacking Analysis
 
-This project analyzes England's attacking performance during the UEFA Euro 2024 tournament using StatsBomb event-level data. The analysis is presented through a Quarto `.qmd` report, including data visualizations and tactical insights.
+This project analyzes England's attacking performance during the UEFA Euro 2024 tournament using StatsBomb event-level data. The analysis is presented through a rendered Quarto `.qmd` report. Check that out here: https://joshmmarchini.github.io/England-Euro-2024/
 
 ## Project Overview
 
