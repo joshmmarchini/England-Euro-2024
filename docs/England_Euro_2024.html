@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Josh Marchini">
+<meta name="dcterms.date" content="2025-07-01">
+
+<title>Gareth Southgate brought England to the Final in Euro 2024 – but they are right to find a new approach to winning the World Cup in 2026.</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="England_Euro_2024_files/libs/clipboard/clipboard.min.js"></script>
+<script src="England_Euro_2024_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="England_Euro_2024_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="England_Euro_2024_files/libs/quarto-html/popper.min.js"></script>
+<script src="England_Euro_2024_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="England_Euro_2024_files/libs/quarto-html/anchor.min.js"></script>
+<link href="England_Euro_2024_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="England_Euro_2024_files/libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="England_Euro_2024_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="England_Euro_2024_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="England_Euro_2024_files/libs/bootstrap/bootstrap-bb462d781dde1847d9e3ccf7736099dd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Gareth Southgate brought England to the Final in Euro 2024 – but they are right to find a new approach to winning the World Cup in 2026.</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Josh Marchini </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 1, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Having not won a major trophy since 1966, England was the favorite entering Euro 2024. Just days before England’s opening match against Serbia, <a href="https://www.sportsbettingdime.com/soccer/futures/euro-championship-odds">Sports Betting Dime</a> listed England at +299 to win the Euro.</p>
+<p>They were favorites because of their <strong><em>attacking talent</em></strong>. Phil Foden had just won Premier League Player of the Season, Jude Bellingham led Real Madrid to Champions League glory in his first season with the club, Harry Kane led the Bundesliga in scoring, and everyone was comparing Bukayo Saka to Mohamed Salah (and by everyone I mean me). This was truly a golden generation and a chance for England to win a major trophy.</p>
+<p>But when the tournament began, England’s attack was lackluster and inefficient. Why?</p>
+<p>I explored this question by comparing England’s Euro 2024 performance to the other 15 teams that advanced to the knockout stage and to the eight teams who advanced to the knockout stage in Copa America 2024. All data used for this analysis came from <a href="https://www.hudl.com/en_gb/products/statsbomb">StatsBomb</a> public data.</p>
+<p>In terms of non-penalty expected goals (xG) and shots per 90, England ranked near the bottom.</p>
+<!--
+## Load libraries
+-->
+<!--
+## Load data: Euro & Copa America 2024
+-->
+<!--
+## Total minutes per team dataset (team_mins)
+-->
+<!--
+## Player positions (player_positions dataset)
+-->
+<!--
+## xG per 90 by team dataset
+-->
+<!--
+## shots per 90 by team dataset (rd of 16)
+-->
+<!--
+## xG per Shot by team dataset (rd of 16)
+-->
+<!--
+## Clear shots by team dataset (rd of 16)
+-->
+<!--
+## Np xG per 90 & shots per 90 (Viz)
+-->
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="England_Euro_2024_files/figure-html/unnamed-chunk-9-1.png" width="672" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>So let’s try to answer why, despite their wealth of attacking talent, England struggled to create chances and score goals.</p>
+<section id="englands-defensive-approach" class="level2">
+<h2 class="anchored" data-anchor-id="englands-defensive-approach">England’s Defensive Approach</h2>
+<p>Gareth Southgate was a defensively-minded coach, and the argument can be made that England’s low attacking output was a worthwhile trade-off for defensive solidity. Although England did press centrally at times, they primarily defended in a mid-block, prioritizing staying compact in the midfield.</p>
+<!--
+## Dataset: Defensive actions for England vs other knock out
+-->
+<!--
+## Viz defensive actions England
+-->
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="England_Euro_2024_files/figure-html/unnamed-chunk-11-1.png" width="672" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Southgate’s approach likely drew inspiration from France’s success in the World Cup in 2018 and the Euro in 2022. While I do not necessarily disagree with this tactic, England still lacked creativity and shape in attack when they <em>did</em> have possession. This was especially true against good to great opposition. In their final three games against the best opposition faced in the tournament, England’s chance creation was especially poor.</p>
+<!--
+## dataset: np xGA per team
+-->
+<!--
+## np xGA per team (dataset)
+-->
+<!--
+## Viz: xG and xGA per match
+-->
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="England_Euro_2024_files/figure-html/unnamed-chunk-14-1.png" width="672" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>So even with their defensive solidity, they did not create enough quality chances to truly compete against the best teams. That said, let’s take a closer look at how England <em>did</em> progress the ball forward.</p>
+</section>
+<section id="playing-long" class="level2">
+<h2 class="anchored" data-anchor-id="playing-long">Playing Long</h2>
+<p><a href="https://www.nytimes.com/athletic/5470579/2024/05/04/progressive-actions-premier-league-explainer">Progressive metrics</a> are counting metrics that help identify players who are proactive in pushing the ball forward. Following the definition laid out by John Muller from <em>The Athletic</em>, a <strong><em>progressive pass</em></strong> is a completed pass that is at least 10 meters (11 yards) long and moves the ball at least 25% of the remaining distance to goal.</p>
+<p>What is interesting about England’s progressive passes is that 15% of them came from their goalkeeper, Jordan Pickford.</p>
+<!--
+## Progressive passes identifier column
+-->
+<!--
+## Progressive carries identifier column
+-->
+<!--
+## Dataset: Progressive passes & carries by team and player
+-->
+<!--
+## Dataset: Goalkeeper percentage of prog pass by team
+-->
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="England_Euro_2024_files/figure-html/unnamed-chunk-19-1.png" width="672" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Among teams that progressed to the knockout stage in the Euros and Copa América, this ranked behind only Romania and Slovenia. While Route 1 can be effective in certain situations, it’s not a strategy many of England’s players are accustomed to and not one that is likely to yield consistent success against top sides.</p>
+<!--
+## Dataset: Heatmap of progressive passes
+-->
+<p>Another useful progressive metric for evaluating a player’s attacking prowess is <strong><em>progressive carries</em></strong>. A progressive carry is an open-play carry at least 10 meters (11 yards) long that moves the ball at least 15% of the remaining distance to goal.</p>
+<p>England lagged behind other elite international sides in progressive passing and progressive carries. For example, let’s compare England to Euro 2024 champions, Spain.</p>
+<!--
+## Dataset: for stacked column charts prog passes and carries Engalnd & Spain to compare
+-->
+<!--
+## Viz: England & Spain progressive passes and carries
+-->
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="England_Euro_2024_files/figure-html/unnamed-chunk-22-1.png" width="672" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Spain totaled 228 progressive passes compared to England’s 187, and 284 progressive carries compared to England’s 210.</p>
+<p>What stands out first is England’s inability to get one of their most creative players, Phil Foden, into positions where he could make his mark on the match. Foden recorded only four progressive passes the entire tournament.</p>
+<p>In contrast, Spain consistently fed the ball to their dynamic wide players, Lamine Yamal and Nico Williams. Aymeric Laporte recorded more than twice as many progressive passes and carries as England’s two center-backs, Stones and Guehi, combined. This illustrates Spain’s commitment to something England did not do: <strong><em>effectively build up from the back</em></strong>. Laporte set the tempo for Spain, and their organized structure created space for their two dynamic wingers to take on defenders, play line-breaking passes, and create goal scoring opportunities.</p>
+<p>It is also worth noting that Spain did not sacrifice defensive solidity for their outstanding progressive metrics. They still conceeded slightly less non-penalty xG per 90 than England did throughout the tournament (0.74 vs 0.71).</p>
+</section>
+<section id="spacing" class="level2">
+<h2 class="anchored" data-anchor-id="spacing">Spacing</h2>
+<p>Another potential explanation for England’s low progressive numbers was their spacing, or lack thereof, in possession. For Manchester City in the 23-24 season, Phil Foden naturally drifted into central areas, where he was often able to pick up the ball in space, then sprint forward with the ball at back-pedaling defenders. Foden did a similar thing with England early on in the tournament, but it often led to Foden and Jude Bellingham occupying very similar zones. For example, in England’s first match against Serbia, Foden and Bellingham had an almost identical average pass location. The two play-makers were in each other’s way, and this made England much easier to defend.</p>
+<!--
+## Data: England passing network vs Serbia (match 1)
+-->
+<!--
+## Viz: England passing network vs Serbia
+-->
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="England_Euro_2024_files/figure-html/unnamed-chunk-24-1.png" width="672" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>After trying Alexander-Arnold and Connor Gallagher at right 8 and getting similar results in the next two group stage matches, England changed their midfield formation against Slovakia in their first knockout match. Instead of playing Declan Rice as a single pivot, Southgate changed to a midfield double pivot with Rice and Kobbie Mainoo.</p>
+<!--
+## Data: England passing network vs Slovakia (match 4)
+-->
+<!--
+## Viz: England passing network vs Slovakia (match 4)
+-->
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="England_Euro_2024_files/figure-html/unnamed-chunk-26-1.png" width="672" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Although this was successful in creating more space and better passing triangles, with Foden staying wide and Rice linking play, Harry Kane struggled to get involved. For the entire match, Kane had only seven receptions and four passes, never combining with the same player more than twice.</p>
+<p>Against Switzerland, Kane’s passing network show that he tried to get more involved. Kane is great because he can drop deep and create, which is what he tried to do against Switerland. However, similar to Foden creating congestion by doing what he does best, Kane further congested space and muddled up passing networks.</p>
+<!--
+## Data: England passing network vs Switerland (match 5)
+-->
+<!--
+## Viz: England passing network vs Switerland (match 5)
+-->
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="England_Euro_2024_files/figure-html/unnamed-chunk-28-1.png" width="672" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Kane has been England’s captain for years and was probably undroppable in Southgate’s view. However, his tendency to drop in, link play, and serve as a creator seem to be redundant for England. Ollie Watkins may have been the better option, as someone who is more direct and can run in behind. A player of Watkins profile could open up space for Foden to operate in attacking midfield positions, and record more progressive carries in the attacking third.</p>
+</section>
+<section id="corner-kick-production" class="level2">
+<h2 class="anchored" data-anchor-id="corner-kick-production">Corner Kick Production</h2>
+<p>Finally, England scored zero goals from corners. On their roster, they had Declan Rice and Bukayo Saka, who both took corners for Arsenal in the 2023/2024 season. That year, Arsenal scored 16 goals from corners, matching the single-season Premier League record. But for England, both players combined took a total of zero corner kicks. By simply not putting the best deliverers of the ball to take in-swinging corners, Southgate passed up on creating better goal scoring opportunities.</p>
+</section>
+<section id="usa-basketball-2004" class="level2">
+<h2 class="anchored" data-anchor-id="usa-basketball-2004">USA Basketball 2004?</h2>
+<p>Maybe this is a stretch, but England’s performance at Euro 2024 feels a lot like USA Basketball’s bronze medal run at the 2004 Olympics. Both squads were loaded with stars, but neither team found the cohesion necessary to succeed as a unit.</p>
+<p>In 2008, Coach K led his first USA Olympic team. The roster still featured major stars like LeBron James, Dwyane Wade, and Carmelo Anthony, but it also included role players who served as specialists. Instead of ball-dominant Allen Iverson, Coach K brought in veteran point guard Jason Kidd. Rather than including Shawn Marion, whose skill set overlapped with Carmelo and LeBron, he opted for a TayShaun Prince, a defensive specialist. And while Michael Redd’s NBA 2K rating may have been much lower than Joe Johnson’s, he was a more effective spot-up shooter and filled a clearer need for the team.</p>
+<p>Perhaps Thomas Tuchel should take a page out of Coach K’s playbook for the 2026 World Cup, starting with Harry Kane. Given the rest of England’s attacking options, Kane’s skill set may be redundant. A more direct striker who runs in behind could better complement the team’s creative midfielders. Ollie Watkins fits that profile and arguably should have started over Kane during Euro 2024. His style of play could have created more space for central playmakers like Jude Bellingham to operate.</p>
+<p>Similarly, instead of shoehorning Phil Foden into the same space as Bellingham, why not deploy someone with pace and verticality alongside him? Anthony Gordon fits the bill.</p>
+<p>If England want to finally translate their golden generation into glory, they’ll need to think less like a fantasy team and more like a team with purpose. Coach K did it in 2008. Maybe England can do it in 2026.</p>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
