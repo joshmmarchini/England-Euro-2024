@@ -9,7 +9,7 @@ editor: visual
 fig-responsive: false
 ---
 
-Having not won a major trophy since 1966, England was the favorite entering Euro 2024. Just days before England’s opening match against Serbia, <a href="https://www.sportsbettingdime.com/soccer/futures/euro-championship-odds" target="_blank" rel="noopener noreferrer">Sports Betting Dime</a> listed England at +299 to win the Euro.
+Having not won a major trophy since 1966, England was the favorite entering Euro 2024. Just days before England’s opening match against Serbia, [Sports Betting Dime](https://www.sportsbettingdime.com/soccer/futures/euro-championship-odds) listed England at +299 to win the Euro.
 
 
 They were favorites because of their ***attacking talent***. Phil Foden had just won Premier League Player of the Season, Jude Bellingham led Real Madrid to Champions League glory in his first season with the club, Harry Kane led the Bundesliga in scoring, and everyone was comparing Bukayo Saka to Mohamed Salah (and by everyone I mean me). This was truly a golden generation and a chance for England to win a major trophy.
@@ -652,7 +652,7 @@ ggplot(np_xG_long, aes(x = match_label, y = xG, fill = Team)) +
   ) +
   labs(
     title = "England's attack was especially weak in their final three matches",
-    subtitle = "England matches Euro 2024",
+    subtitle = "England matches | Euro 2024",
     x = "Match",
     y = "Non-Penalty xG",
     fill = "Team"
@@ -873,7 +873,7 @@ ggplot(data = prog_gk_team_16, aes(x = player_perc, y = reorder(team.name, playe
 
 ```
 
-Among teams that progressed to the knockout stage in the Euros and Copa América, this ranked behind only Romania and Slovenia. While Route 1 can be effective in certain situations, it’s not a strategy many of England's players are accustomed to and not one that is likely to yield consistent success against top sides.
+Among teams that progressed to the knockout stage in the Euros and Copa America, this ranked behind only Romania and Slovenia. While Route 1 can be effective in certain situations, it’s not a strategy many of England's players are accustomed to and not one that is likely to yield consistent success against top sides.
 
 ```{=html}
 <!--
@@ -1144,7 +1144,7 @@ It is also worth noting that Spain did not sacrifice defensive solidity for thei
 
 ## Spacing
 
-Another potential explanation for England's low progressive numbers was their spacing, or lack thereof, in possession. For Manchester City in the 23-24 season, Phil Foden naturally drifted into central areas, where he was often able to pick up the ball in space, then sprint forward with the ball at back-pedaling defenders. Foden did a similar thing with England early on in the tournament, but it often led to Foden and Jude Bellingham occupying very similar zones. For example, in England's first match against Serbia, Foden and Bellingham had an almost identical average pass location. The two play-makers were in each other's way, and this made England much easier to defend.
+Another potential explanation for England's low progressive numbers was their spacing, or lack thereof, in possession. For Manchester City in the 2023-2024 season, Phil Foden naturally drifted into central areas, where he was often able to pick up the ball in space, then sprint forward with the ball at back-pedaling defenders. Foden did a similar thing with England early on in the tournament, but it often led to Foden and Jude Bellingham occupying very similar zones. For example, in England's first match against Serbia, Foden and Bellingham had an almost identical average pass location. The two play-makers were in each other's way, and this made England much easier to defend.
 
 ```{=html}
 <!--
@@ -1692,13 +1692,13 @@ Kane has been England’s captain for years and was probably undroppable in Sout
 
 Finally, England scored zero goals from corners. On their roster, they had Declan Rice and Bukayo Saka, who both took corners for Arsenal in the 2023/2024 season. That year, Arsenal scored 16 goals from corners, matching the single-season Premier League record. But for England, both players combined took a total of zero corner kicks. By simply not putting the best deliverers of the ball to take in-swinging corners, Southgate passed up on creating better goal scoring opportunities.
 
-## USA Basketball 2004?
+## USA Basketball 2004
 
 Maybe this is a stretch, but England’s performance at Euro 2024 feels a lot like USA Basketball’s bronze medal run at the 2004 Olympics. Both squads were loaded with stars, but neither team found the cohesion necessary to succeed as a unit.
 
-In 2008, Coach K led his first USA Olympic team. The roster still featured major stars like LeBron James, Dwyane Wade, and Carmelo Anthony, but it also included role players who served as specialists. Instead of ball-dominant Allen Iverson, Coach K brought in veteran point guard Jason Kidd. Rather than including Shawn Marion, whose skill set overlapped with Carmelo and LeBron, he opted for a TayShaun Prince, a defensive specialist. And while Michael Redd's NBA 2K rating may have been much lower than Joe Johnson's, he was a more effective spot-up shooter and filled a clearer need for the team.
+In 2008, Coach K led his first USA Olympic team. The roster still featured major stars like LeBron James, Dwyane Wade, and Carmelo Anthony, but it also included role players who served as specialists. Instead of ball-dominant Allen Iverson, Coach K brought in veteran point guard Jason Kidd. Rather than including Shawn Marion, whose skillset overlapped with Carmelo and LeBron, he opted for TayShaun Prince, a defensive specialist. And while Michael Redd's 2K rating may have been much lower than Joe Johnson's, he was a more effective spot-up shooter and filled a clearer need for the team.
 
-Perhaps Thomas Tuchel should take a page out of Coach K’s playbook for the 2026 World Cup, starting with Harry Kane. Given the rest of England’s attacking options, Kane’s skill set may be redundant. A more direct striker who runs in behind could better complement the team’s creative midfielders. Ollie Watkins fits that profile and arguably should have started over Kane during Euro 2024. His style of play could have created more space for central playmakers like Jude Bellingham to operate.
+Perhaps Thomas Tuchel should take a page out of Coach K’s playbook for the 2026 World Cup, starting with Harry Kane. Given the rest of England’s attacking options, Kane’s skillset may be redundant. A more direct striker who runs in behind could better complement the team’s creative midfielders. Ollie Watkins fits that profile and arguably should have started over Kane during Euro 2024. His style of play could have created more space for central playmakers like Jude Bellingham to operate.
 
 Similarly, instead of shoehorning Phil Foden into the same space as Bellingham, why not deploy someone with pace and verticality alongside him? Anthony Gordon fits the bill.
 
