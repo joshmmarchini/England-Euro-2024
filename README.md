@@ -8,5 +8,5 @@ This project analyzes England's attacking performance during the UEFA Euro 2024 
 - **Tools Used:** 
   - R
   - Quarto
-  - StatsBombR & tidyverse (pull qmd file to view libraries installed to run code)
+  - StatsBombR & tidyverse (check out index.qmd for code)
 - **Output:** A rendered Quarto HTML article analyzing England's offensive performance
